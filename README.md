@@ -9,15 +9,17 @@ Tool that generates a swift constants file from resource files names.
 ## Overview
 
 What you do:
-```
-guard let url = Bundle.main.url(forResource: "ErrorProneResourceFileNameWhichCanBeChangedWithouyNoticing", withExtension: nil) else {
+```swift
+guard let url = Bundle.main.url(forResource: "ErrorProneResourceFileNameWhichCanBeChangedWithouyNoticing", 
+withExtension: nil) else {
 	return
 }
 ````
 
 What you want to do:
-```
-guard let url = Bundle.main.url(forResource: Files.fileName, withExtension: nil) else {
+```swift
+guard let url = Bundle.main.url(forResource: Files.fileName, 
+withExtension: nil) else {
 	return
 }
 ````
