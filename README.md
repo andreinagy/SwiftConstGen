@@ -1,5 +1,5 @@
 # SwiftFilesConstGen
-Ruby tool that generates constants from files names.
+Tool that generates a swift constants file from resource files names.
 
 # Table of Contents
 1. [Installation](#Installation)
