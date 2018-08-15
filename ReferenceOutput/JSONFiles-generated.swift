@@ -7,10 +7,10 @@
 // swiftlint:disable all
 struct JSONFiles {
 
-    static let file_extension = "json"
+    static let fileExtension = "json"
     
-    static let myOtherFile = "My--Other.File.json"
-    static let myFile = "My-File.json"
+    static let myOtherFile = "My--Other.File"
+    static let myFile = "My-File"
 
 }
 // swiftlint:enable all

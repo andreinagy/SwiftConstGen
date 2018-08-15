@@ -30,9 +30,9 @@ withExtension: nil) else {
 ![SwiftFilesConstGen overview](https://github.com/andreinagy/SwiftConstGen/blob/master/overview.png)
 
 ## Installation
-- Download swiftFilesConstGen.rb (eg. in the project's `bin/` folder)
-- Make it executable (`chmod +x swiftFilesConstGen.rb`)
-- ???
+- Navigate to the desired directory in the terminal (eg. in the project's `bin/` folder)
+- run `curl -O https://raw.githubusercontent.com/andreinagy/SwiftConstGen/master/swiftFilesConstGen.rb`
+- run `chmod +x swiftFilesConstGen.rb`
 - Profit
 
 Optionally you can add it as a build phase to get a fresh constants file.
@@ -66,10 +66,10 @@ Run in the terminal:
 // swiftlint:disable all
 struct JSONFiles {
 
-    static let file_extension = "json"
+    static let fileExtension = "json"
     
-    static let myOtherFile = "My--Other.File.json"
-    static let myFile = "My-File.json"
+    static let myOtherFile = "My--Other.File"
+    static let myFile = "My-File"
 
 }
 // swiftlint:enable all
