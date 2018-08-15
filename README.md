@@ -37,7 +37,7 @@ withExtension: nil) else {
 
 Optionally you can add it as a build phase to get a fresh constants file.
 ```
-"$PROJECT_DIR/bin/generateConstants.rb" -i "$PROJECT_DIR/Project/Resources/" -o "$PROJECT_DIR/Project/Generated/" -e json -n JSONFiles
+"$PROJECT_DIR/bin/swiftFilesConstGen.rb" -i "$SRCROOT/$PROJECT_NAME/Resources/" -o "$SRCROOT/$PROJECT_NAME/Generated/" -e json -n JSONFiles
 ```
 - Script location: project's `bin` directory
 - Input files location `Project/Resources/`
